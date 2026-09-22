@@ -28,6 +28,19 @@ matrix(1:4, nrow=2 , ncol=2 , byrow=TRUE)
 mat<- matrix(1:4, nrow=2 , ncol=2 , byrow=TRUE)
 dim(mat)
 
+#data frame
+
+df<- data.frame(
+  age=c(2,4,5,2),
+  gender=c("M","f")
+)
+
+#access column
+df$gender
+
+ar <- c(2,22,33,3,5)
+cate = ifelse(ar>=18 ,"adult", "child")
+print(cate)
 
 
 
