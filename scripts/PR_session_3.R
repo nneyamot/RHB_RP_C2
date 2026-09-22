@@ -36,7 +36,8 @@ df<- data.frame(
 )
 
 #access column
-df$gender
+c=df$age
+print(c)
 
 ar <- c(2,22,33,3,5)
 cate = ifelse(ar>=18 ,"adult", "child")
